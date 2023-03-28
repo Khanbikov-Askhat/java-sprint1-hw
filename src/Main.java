@@ -12,6 +12,7 @@ class Main {
             if (i == 1) {
                 newStepTracker.addNewNumberStepsPerDay();
             } else if (i == 2) {
+                System.out.println("Введите количество шагов для цели");
                 newStepTracker.changeStepGoal();
             } else if (i == 3) {
                 newStepTracker.printStatistic();
@@ -33,3 +34,4 @@ class Main {
         System.out.println("4 - выйти из приложения.");
     }
 }
+// Привет! Спасибо за ревью:)
